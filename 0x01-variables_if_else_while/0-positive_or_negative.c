@@ -1,33 +1,30 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 /* more headers goes there */
-
 #include <stdio.h>
-
 /* betty style doc for function main goes there */
+
 /**
- *main - prints a string on the console
  *
- * Return: o when all goes well.
+ * main - prints display on console
+ *
+ * Return: o when succesful
+ *
  */
 
 int main(void)
 
 {
 	int n;
-
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n == 0)
-		printf("%d is zero\n", n);
-	else
-		printf("%d is negative\n", n);
 	/* your code goes there */
+	if (n > 0)
+	printf("%d is positive\n", n);
+	else if (n == 0)
+	printf ("%d is zero\n", n);
+	else
+	printf("%d is negative\n", n);
 	return (0);
-
-	TUK2VfY0rbBganamr7EZvW8d0KgFLRiii
 }
