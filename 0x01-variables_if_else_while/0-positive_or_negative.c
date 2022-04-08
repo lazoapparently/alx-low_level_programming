@@ -5,10 +5,9 @@
 /* betty style doc for function main goes there */
 
 /**
- *
  *main - prints a string on the console
  *
- *Return: 0 when all goes well
+ *Return: o when all goes well
  *
  */
 
