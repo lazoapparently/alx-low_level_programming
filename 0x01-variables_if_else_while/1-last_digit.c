@@ -6,11 +6,13 @@
 /**
  * main - prints a tring on console
  *
- * Return: 0 when all goes well
+ * Return: o when all goes well
  */
+
 int main(void)
 {
 	int n, last_digit;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
