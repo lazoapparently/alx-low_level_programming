@@ -5,16 +5,15 @@
 /* betty style doc for function main goes there */
 
 /**
- *main - prints a string on the console
- *
- *Return: o when all goes well
- *
- */
+* main - prints a string on the console
+*
+* Return: 0 when all goes well
+*/
 
 int main(void)
 {
 	int n;
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
