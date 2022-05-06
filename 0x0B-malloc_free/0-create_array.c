@@ -3,8 +3,8 @@
 /**
 * create_array - a function that creates an array of chars,
 * and initializes it with a specific char.
-* @size - size of an array
-* @c - a character to initialize the array
+* @size: size of an array
+* @c: a character to initialize the array
 * Return: a pointer to the array, or NULL if it fails
 */
 char *create_array(unsigned int size, char c)
