@@ -12,7 +12,7 @@ int main(void)
 	clear_bit(&n, 10);
 	printf("%lu\n", n);
 	n = 0;
-	lear_bit(&n, 10);
+	clear_bit(&n, 10);
 	printf("%lu\n", n);
 	n = 98;
 	clear_bit(&n, 1);
